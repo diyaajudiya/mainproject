@@ -1,0 +1,24 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/drawable/btn_gradient.xml" value="0.2265" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/drawable/editviewbackground.xml" value="0.2375" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/drawable/fdbackground.xml" value="0.2375" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/drawable/googlebackground.xml" value="0.2375" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/layout/activity_signup.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/layout/activity_singin.xml" value="0.25" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/layout/activity_singup.xml" value="0.2359375" />
+        <entry key="..\:/Users/Diyaa/foodfest2/app/src/main/res/layout/activity_splashscreen.xml" value="0.176" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

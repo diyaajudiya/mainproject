@@ -1,0 +1,218 @@
+[
+  {
+    "name": "The Pizza House",
+    "address": "Robert robertson,1236",
+    "Delivery_charges": "5",
+    "image": "https://www.flaticon.com/free-sticker/pizza_4359642?term=pizza&page=1&position=4&origin=search&related_id=4359642",
+    "Hours": {
+      "Sunday": "11:00 AM - 7:00 PM",
+      "Monday": "10:00 AM-9:00 PM",
+      "Tuesday": "10:00 AM 10:00 PM",
+      "Wednesday": "10:00 AM-11:00",
+      "Thursday": "10:00 AM 10:00 PM",
+      "Friday": "18:00 AM-11:08 PM",
+      "Saturday": "10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Margherita",
+        "Price": "125.00",
+        "url": "https://i.pinimg.com/736x/a2/67/7e/a2677e296f5f419d7fbabd13c1399403.jpg"
+      },
+      {
+        "name": "Cheezy-7 pizza",
+        "Price": "120.00",
+        "url": "https://elamara.com.br/images/mussarela.jpg"
+      },
+      {
+        "name": "Mac Spical",
+        "price": "110.00",
+        "url": "https://img.goodfon.ru/original/640x480/0/44/fastfud-pitstsa-pomidory-listia-krupnyi-plan-boke.jpg"
+      },
+      {
+        "name": "Farm Villa",
+        "Price": "250.00",
+        "url": "https://on-desktop.com/wps/Food_Pizza_Italian_pizza_011918_.jpg"
+      },
+      {
+        "name": "Paneer Tikka Buter Masala",
+        "price": "165.00",
+        "url": "https://5c0f024facba69dffb4e-5a3d4affc269e22521ef580fbda95679.ssl.cf2.rackcdn.com/cropper/210163.jpg"
+      }
+    ]
+  },
+
+  {
+    "name": "The Garden Burger",
+    "address": "190 E stacy Rd.Allen",
+    "Delivery_charges": "3",
+    "image": "https://www.flaticon.com/free-sticker/burger_10542095?related_id=10542095",
+    "Hours": {
+      "Sunday": "11:00 AM - 7:00 PM",
+      "Monday": "10:00 AM-9:00 PM",
+      "Tuesday": "10:00 AM 10:00 PM",
+      "Wednesday": "10:00 AM-11:00",
+      "Thursday": "10:00 AM 10:00 PM",
+      "Friday": "18:00 AM-11:08 PM",
+      "Saturday": "10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Alloo Crunch",
+        "Price": "125.00",
+        "url": "https://exoticarestaurant.com/wp-content/uploads/2021/10/cheese-veg-brger-420x280.png"
+      },
+      {
+        "name": "Cheese Crunch",
+        "Price": "120.00",
+        "url": "https://i.pinimg.com/originals/fe/d0/71/fed071e040f6e413b5babfa2358300ca.jpg"
+      },
+      {
+        "name": "spicy cheese crunch",
+        "price": "110.00",
+        "url": "https://i.pinimg.com/236x/3e/2b/0a/3e2b0a8b8d21b8fb9b33b522a14b7623--vegetarian-burgers-veggie-burgers.jpg"
+      },
+      {
+        "name": "spicy paneer crunch",
+        "Price": "250.00",
+        "url": "https://4.imimg.com/data4/RR/RR/GLADMIN-/images-menu-n5-250x250.jpg"
+      },
+      {
+        "name": "cheese double crunch",
+        "price": "165.00",
+        "url": "https://www.mat3am.net/digital/assets/2016/5/31/jpg/46851b57-82a7-4ff3-ac10-589aed491640.jpg"
+      }
+    ]
+  },
+
+  {
+    "name": "Sandwich King",
+    "address": "1075 W.I-20 Aligton",
+    "Delivery_charges": "2",
+    "image": "https://www.flaticon.com/free-sticker/sandwich_10542111?term=sandwich&page=1&position=5&origin=search&related_id=10542111",
+    "Hours": {
+      "Sunday": "11:00 AM - 7:00 PM",
+      "Monday": "10:00 AM-9:00 PM",
+      "Tuesday": "10:00 AM 10:00 PM",
+      "Wednesday": "10:00 AM-11:00",
+      "Thursday": "10:00 AM 10:00 PM",
+      "Friday": "18:00 AM-11:08 PM",
+      "Saturday": "10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "cheese corn grilled",
+        "Price": "125.00",
+        "url": "https://najlepszewkuchni.pl/storage/recipes/2017_10_16/U5jALIm1EzzA97wq4g3V.jpg"
+      },
+      {
+        "name": "spicy paneer grilled",
+        "Price": "120.00",
+        "url": "https://www.yummyoyummy.com/wp-content/uploads/2015/08/Paneer-tikka-sandwich.jpg"
+      },
+      {
+        "name": "veggie grilled",
+        "price": "110.00",
+        "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/5c/df/9d/grilled-sandwiches.jpg?w=800&h=600&s=1"
+      },
+      {
+        "name": "indian grilled",
+        "Price": "250.00",
+        "url": "https://i.ytimg.com/vi/5m1TBbKuAVI/hqdefault.jpg"
+      },
+      {
+        "name": "exotic grilled",
+        "price": "165.00",
+        "url": "https://static01.nyt.com/images/2022/09/24/dining/19SevenIngredients-Kimchi-Grilled-Cheese/19SevenIngredients-Kimchi-Grilled-Cheese-articleLarge.jpg?quality=75&auto=webp&disable=upscal"
+      }
+    ]
+  },
+
+  {
+    "name": "Tea & coffee",
+    "address": "1170 W Branch st",
+    "Delivery_charges": "4",
+    "image": "https://www.flaticon.com/free-sticker/heart_7564847?term=tea&page=1&position=11&origin=search&related_id=7564847",
+    "Hours": {
+      "Sunday": "11:00 AM - 7:00 PM",
+      "Monday": "10:00 AM-9:00 PM",
+      "Tuesday": "10:00 AM 10:00 PM",
+      "Wednesday": "10:00 AM-11:00",
+      "Thursday": "10:00 AM 10:00 PM",
+      "Friday": "18:00 AM-11:08 PM",
+      "Saturday": "10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Hot coffee",
+        "Price": "125.00",
+        "url": "https://www.lawsoc-ni.org/DatabaseImages/new_6606293__pp-hot-coffee-rf-istock.jpg"
+      },
+      {
+        "name": "masala tea",
+        "Price": "120.00",
+        "url": "https://i.ytimg.com/vi/_thmxJcWBVk/hqdefault.jpg"
+      },
+      {
+        "name": "green lemon tea",
+        "price": "110.00",
+      "url": "https://i.ytimg.com/vi/GBVcUhot_34/hqdefault.jpg  "
+      },
+      {
+        "name": "green tea with Honey",
+        "Price": "250.00",
+        "url": "https://pidjar.com/wp-content/uploads/2020/07/lime-tea-1000x600.jpg"
+      },
+      {
+        "name": "cold coffee",
+        "price": "165.00",
+        "url": "https://freshrestaurants.com/wp-content/uploads/2017/08/Fresh-Cold-Brew-Coffee-2.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Pasta spiral",
+    "address": "601 W.main st.fork",
+    "Delivery_charges": "5",
+    "image": "https://www.flaticon.com/free-sticker/noodle_10829553?term=pasta&page=1&position=6&origin=search&related_id=10829553",
+    "Hours": {
+      "Sunday": "11:00 AM - 7:00 PM",
+      "Monday": "10:00 AM-9:00 PM",
+      "Tuesday": "10:00 AM 10:00 PM",
+      "Wednesday": "10:00 AM-11:00",
+      "Thursday": "10:00 AM 10:00 PM",
+      "Friday": "18:00 AM-11:08 PM",
+      "Saturday": "10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Macarones",
+        "Price": "125.00",
+        "url": "https://thecookscook.com/wp-content/uploads/Depositphotos_20128781_m-2015.jpg"
+      },
+      {
+        "name": "pasta with tomato souse",
+        "Price": "120.00",
+        "url": "https://guiadacozinha.com.br/wp-content/uploads/2023/05/macarronada-com-molho-linguica-350x230.jpg"
+      },
+      {
+        "name": "veggie noodals",
+        "price": "110.00",
+        "url": "https://preetsweetsandtakeaways.com/assets/img/gallery/15.jpg"
+      },
+      {
+        "name": "lasagne",
+        "Price": "250.00",
+        "url": "https://kashefmacaroni.com/wp-content/uploads/2023/06/image-2810000.webp"
+      },
+
+      {
+        "name":" Hot & spicy noodles",
+        "price": "165.00",
+        "url": "https://slurrp.club/wp-content/uploads/2018/11/DSC_0516-360x240.jpg"
+      }
+    ]
+  }
+
+  ]
