@@ -37,7 +37,7 @@ public class Menulistadapter extends RecyclerView.Adapter<Menulistadapter.Myview
     @NonNull
     @Override
     public Menulistadapter.Myviewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.Menu_recycle_row,parent,false );
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.menu_recycle_row,parent,false );
         return new Myviewholder(view);
     }
 
@@ -140,6 +140,9 @@ public class Menulistadapter extends RecyclerView.Adapter<Menulistadapter.Myview
         public void  onAddToCardClick(Menu Menu);
         public void  onUpdateCardClick(Menu Menu);
         public void  onRemoveFromCartClick(Menu Menu);
+    }
+
+    private class Menu_recycle_row {
     }
 }
 

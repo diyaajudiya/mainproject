@@ -50,8 +50,7 @@ public class PlaceYourOrderAdapter extends RecyclerView.Adapter<PlaceYourOrderAd
 
 
         Glide.with(holder.thamimage)
-                .load(menuList.get(position).getUrl());
-        .into(holder.thamimage);
+                .load(menuList.get(position).getUrl()).into(holder.thamimage);
 
     }
 

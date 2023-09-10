@@ -95,7 +95,7 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
     }
     private  void calculateTotalAmount( Restaurantmodel restaurantmodel){
         float subTotalAmount = 0f;
-        for ((Menu menu:restaurantmodel.getMenus())){
+        for (Menu menu:restaurantmodel.getMenus()){
             subTotalAmount += Menu.getPrice()* Menu.getTotalInCard();
         }
         tvsubtotalAmount.setText("$"+String.format("%.2f",subTotalAmount));

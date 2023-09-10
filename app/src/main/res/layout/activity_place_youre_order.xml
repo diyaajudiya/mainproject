@@ -7,7 +7,8 @@
     tools:context=".PlaceYourOrderActivity">
 
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -59,10 +60,8 @@
             android:text="Delivery"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toEnd="@+id/swichDelivery"
-            app:layout_constraintTop_toBottomOf="@+id/tvCustomerDetail"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="87dp" />
+
+            />
 
         <EditText
             android:id="@+id/inputName"
@@ -315,5 +314,5 @@
             app:layout_constraintTop_toBottomOf="@+id/tvtotal" />
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 </ScrollView>
