@@ -86,7 +86,7 @@
                     tools:ignore="TouchTargetSizeCheck" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword"
+                    android:id="@+id/editTextTextEmail"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginBottom="20dp"
@@ -101,7 +101,7 @@
                     tools:ignore="TouchTargetSizeCheck" />
 
                 <EditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/editTextTextPassword"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginBottom="20dp"
@@ -116,7 +116,7 @@
                     tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
-                    android:id="@+id/singin"
+                    android:id="@+id/signup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
@@ -192,7 +192,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/alredyhave"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"

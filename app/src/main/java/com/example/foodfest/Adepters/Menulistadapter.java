@@ -46,18 +46,13 @@ public class Menulistadapter extends RecyclerView.Adapter<Menulistadapter.Myview
     public void onBindViewHolder(@NonNull Myviewholder holder, @SuppressLint("RecyclerView") int position) {
         holder.MenuName.setText(menuList.get(position).getItem());
         holder.MenuPrice.setText( "Price: $"+menuList.get(position).getprice());
-        holder.addToCardButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Menu menu = menuList.get(position);
-                menu.setTotalInCart(1);
-                restaurantListclickListener.onAddToCardClick(menu);
-                holder.AddMoreLayout.setVerticalGravity(View.VISIBLE);
-                holder.addToCardButton.setVisibility(View.GONE);
-                holder.Tvcount.setTag(menu.getTotalInCard()+"");
-
-
-            }
+        holder.addToCardButton.setOnClickListener(v -> {
+            Menu menu = menuList.get(position);
+            menu.setTotalInCart(1);
+            restaurantListclickListener.onAddToCardClick(menu);
+            holder.AddMoreLayout.setVerticalGravity(View.VISIBLE);
+            holder.addToCardButton.setVisibility(View.GONE);
+            holder.Tvcount.setTag(menu.getTotalInCard()+"");
         });
 
         holder.imageMinus.setOnClickListener(new View.OnClickListener() {
