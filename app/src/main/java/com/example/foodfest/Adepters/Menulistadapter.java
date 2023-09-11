@@ -52,7 +52,7 @@ public class Menulistadapter extends RecyclerView.Adapter<Menulistadapter.Myview
             restaurantListclickListener.onAddToCardClick(menu);
             holder.AddMoreLayout.setVerticalGravity(View.VISIBLE);
             holder.addToCardButton.setVisibility(View.GONE);
-            holder.Tvcount.setTag(menu.getTotalInCard()+"");
+            holder.Tvcount.setTag(menu.getTotalInCart()+"");
         });
 
         holder.imageMinus.setOnClickListener(new View.OnClickListener() {
