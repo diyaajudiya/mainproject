@@ -40,12 +40,10 @@ public class sing_in extends AppCompatActivity {
         }
 
         }
-    }
 
     @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
-
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singin);
         mAuth = FirebaseAuth.getInstance();
@@ -56,7 +54,7 @@ public class sing_in extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),sing_in.class);
+                Intent intent = new Intent(getApplicationContext(), sing_in.class);
                 startActivity(intent);
                 finish();
             }
@@ -64,14 +62,14 @@ public class sing_in extends AppCompatActivity {
         buttonlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email , password;
-                email = String.valueOf( Edittextemail.getText().toString());
+                String email, password;
+                email = String.valueOf(Edittextemail.getText().toString());
                 password = String.valueOf(Edittextpassword.getText().toString());
-                if(TextUtils.isEmpty(email)){
+                if (TextUtils.isEmpty(email)) {
                     Toast.makeText(sing_in.this, "its impty fill firs or correctly", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if(TextUtils.isEmpty(password)){
+                if (TextUtils.isEmpty(password)) {
                     Toast.makeText(sing_in.this, "its impty fill firs or correctly", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -82,7 +80,7 @@ public class sing_in extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(getApplicationContext(), "Authentication failed.",
                                             Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(getApplicationContext(),PlaceYourOrderActivity.class);
+                                    Intent intent = new Intent(getApplicationContext(), PlaceYourOrderActivity.class);
                                     startActivity(intent);
                                     finish();
 
@@ -98,6 +96,7 @@ public class sing_in extends AppCompatActivity {
             }
         });
 
-      
-        }
+
+    }
+}
 
